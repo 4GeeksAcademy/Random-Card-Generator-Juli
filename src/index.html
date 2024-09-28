@@ -12,16 +12,52 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
+
+  <body class="bg-success">
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
+      <!--aca arrancamos a armar la carta-->
+      <div class="card mb-3 mx-auto mt-5" style="border-radius: 14px;">
+        <!--aca arrancamos a armar el body de la carta-->
+        <div
+          class="card-body d-flex flex-column h-100 justify-content-between p-1"
+        >
+          <p class="pinta text-start">♣</p>
+          <h1 class="cardValues">A</h1>
+          <p class="pinta bottom-pinta text-start">♣</p>
+        </div>
+      </div>
+      <div>
+        <button id="button" class="btn btn-warning">Generate New Card</button>
+        <button id="button-1" class="btn btn-dark">Start Timer</button>
+        <button id="button-2" class="btn btn-danger">Stop Timer</button>
+      </div>
+
+      <div class="d-flex flex-column col-6 mx-auto">
+        <div class="input-group input-group-sm mb-3 mt-3">
+          <span class="input-group-text" id="inputGroup-sizing-sm">Height</span>
+          <input
+            id="input-height"
+            type="number"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-sm"
+          />
+        </div>
+
+        <div class="input-group input-group-sm mb-3 d-flex">
+          <span class="input-group-text" id="inputGroup-sizing-sm">Width</span>
+          <input
+            id="input-width"
+            type="number"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-sm"
+          />
+        </div>
+      </div>
+
+      <div class="fixed-bottom p-4"></div>
+        Made with ❤️ by Julie
         <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
       </div>
     </div>

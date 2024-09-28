@@ -1,1 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.pinta {
+  font-size: 100px;
+}
+
+.cardValues {
+  font-size: 100px;
+}
+
+.bottom-pinta {
+  transform: rotate(180deg);
+}
+
+/* .card {
+    height: 500px;
+  } */
